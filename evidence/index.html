@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Message Content Intent review evidence for the Jarvis Discord bot.">
+  <title>Intent Review Evidence — Jarvis</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <main class="page">
+    <nav><a href="../index.html">← Jarvis Legal</a> <a href="../privacy.html">Privacy Policy</a></nav>
+    <p class="eyebrow">Jarvis Discord Bot</p>
+    <h1>Message Content Intent evidence</h1>
+    <p class="meta">Prepared July 4, 2026</p>
+    <p>These screenshots demonstrate Jarvis features that process message content inside Discord. The examples show the established prefix-command interface, argument parsing, restricted-channel automod, rank XP, and daily message-quest tracking.</p>
+
+    <h2>1. Prefix command interface</h2>
+    <div class="evidence-grid">
+      <figure>
+        <img src="help-menu.png" alt="Jarvis responding to the jhelp prefix command with its command menu">
+        <figcaption><code>jhelp</code> opens the bot’s interactive help menu and lists established text commands.</figcaption>
+      </figure>
+      <figure>
+        <img src="multiword-command.png" alt="Jarvis parsing a team command containing the multi-word character name Ivan Vanko">
+        <figcaption>A team command parses an action plus the multi-word character name “Ivan Vanko” and updates the user’s team.</figcaption>
+      </figure>
+    </div>
+
+    <h2>2. Restricted-channel custom automod</h2>
+    <div class="evidence-grid">
+      <figure>
+        <img src="automod-warning.png" alt="Direct-message warning sent after the custom automod removes a prohibited message">
+        <figcaption>The sender receives an automated warning after a configured prohibited term is detected and removed.</figcaption>
+      </figure>
+      <figure>
+        <img src="automod-log.png" alt="Restricted Discord moderation log showing the user, channel, detected term, and message ID">
+        <figcaption>The restricted moderation log records the action, relevant identifiers, matched term, and triggering content for moderator review.</figcaption>
+      </figure>
+    </div>
+
+    <h2>3. Rank XP message processing</h2>
+    <div class="evidence-grid">
+      <figure>
+        <img src="rank-before.png" alt="Jarvis rank card showing 51,610 XP before an eligible message">
+        <figcaption>Before: the user has 51,610 XP.</figcaption>
+      </figure>
+      <figure>
+        <img src="rank-after.png" alt="Jarvis rank card showing 51,647 XP after an eligible message">
+        <figcaption>After: an eligible message awards 37 XP, producing a total of 51,647 XP.</figcaption>
+      </figure>
+    </div>
+
+    <h2>4. Daily message quest tracking</h2>
+    <div class="evidence-grid">
+      <figure>
+        <img src="quest-before.png" alt="Daily message quest showing one of fifty messages completed">
+        <figcaption>Before: the daily message quest is at 1/50.</figcaption>
+      </figure>
+      <figure>
+        <img src="quest-after.png" alt="Daily message quest showing three of fifty messages completed">
+        <figcaption>After two additional messages, the daily quest advances to 3/50.</figcaption>
+      </figure>
+    </div>
+
+    <p>For processing, retention, service-provider and deletion details, see the <a href="../privacy.html">Jarvis Privacy Policy</a>.</p>
+  </main>
+</body>
+</html>
