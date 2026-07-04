@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy Policy for the Jarvis Discord bot.">
+  <title>Privacy Policy — Jarvis</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page">
+    <nav><a href="index.html">← Jarvis Legal</a> <a href="terms.html">Terms of Service</a></nav>
+    <p class="eyebrow">Jarvis Discord Bot</p>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Effective and last updated: July 4, 2026</p>
+
+    <p>This policy explains what data Jarvis processes, why it is used, how it is shared and retained, and how users can request access or deletion.</p>
+
+    <h2>1. Data we collect and store</h2>
+    <ul>
+      <li>Discord identifiers and profile data made available to the bot, including user ID, username, discriminator where present, avatar reference, and activity timestamps.</li>
+      <li>Game data, including cards, teams, currencies, inventory, weapons, statistics, cooldowns, quests, rankings, achievements and related progression.</li>
+      <li>Vote history, vote source, streaks, rewards and opt-in notification settings.</li>
+      <li>Notes, reminder text, titles and tags that a user deliberately asks Jarvis to save.</li>
+      <li>Relevant server and channel identifiers and settings. Server records may include server name and ID, owner ID and username, member count, invite, and join or leave status.</li>
+    </ul>
+
+    <h2>2. Message Content privileged intent</h2>
+    <p>Jarvis processes message content for these user-facing functions:</p>
+    <ul>
+      <li>Recognizing <code>j</code> and <code>jarvis</code> commands and parsing their arguments.</li>
+      <li>Processing eligible message activity in the configured community server for rank XP and daily message quests.</li>
+      <li>Scanning messages only in the configured moderation channel for configured prohibited terms.</li>
+    </ul>
+    <p>When automod acts, it deletes the triggering message and sends up to 1,000 characters of that message, the matched term, and relevant user, channel and message identifiers to a restricted moderation log channel on Discord. Ordinary chat history is not stored in MongoDB. Content deliberately submitted to the Notes or Reminders features is stored so those features can operate.</p>
+
+    <h2>3. How we use data</h2>
+    <ul>
+      <li>Execute commands and maintain user game progress.</li>
+      <li>Operate teams, battles, trading, leaderboards, quests, rewards, notes and reminders.</li>
+      <li>Deliver vote reminders and other notifications that users enable.</li>
+      <li>Moderate the configured channel and investigate abuse.</li>
+      <li>Maintain server configuration, security, cooldowns and anti-exploit controls.</li>
+    </ul>
+
+    <h2>4. Service providers and sharing</h2>
+    <p>Jarvis uses Discord to receive and send data, Cybrancee for application hosting, and MongoDB for database storage. Top.gg and DiscordBotList provide vote events. These providers process data only as needed to perform their role. Data may also be disclosed when required by law or to investigate security and abuse.</p>
+    <p>We do not sell personal data or share it with advertisers or data brokers.</p>
+
+    <h2>5. Retention</h2>
+    <p>Data is retained while needed to operate Jarvis or until a valid deletion request is completed. Game progress, completed reminders, vote history and server history currently have no fixed automatic deletion period. Automod logs remain in Discord until removed by server moderators. Data that is no longer necessary will be deleted, and data will also be deleted when required by Discord or applicable law.</p>
+
+    <h2>6. Security</h2>
+    <p>Database access is authenticated and restricted, administrative access is limited, and credentials are stored outside the public source repository. No online service can guarantee absolute security.</p>
+
+    <h2>7. Your choices and requests</h2>
+    <p>Users can use Jarvis commands to view or remove their notes and reminders and to manage vote notifications. To request access, correction, export or deletion of stored data, contact the bot administrators through the <a href="https://discord.gg/avengers">Jarvis support server</a>. We aim to respond to valid requests within 30 days.</p>
+    <p>Stopping command use does not erase existing records. Messages in configured XP, quest or automod locations may still be processed. Some security or server records may be retained when legitimately required; any exception will be explained.</p>
+
+    <h2>8. Data we do not request</h2>
+    <p>Jarvis does not request Discord passwords, account tokens, email addresses, phone numbers, payment details, precise location, device identifiers, voice, or video. Never submit credentials through commands, notes or reminders.</p>
+
+    <h2>9. Children</h2>
+    <p>Users must meet Discord’s minimum age requirement for their country. Jarvis is not directed to anyone below that minimum age.</p>
+
+    <h2>10. Changes and contact</h2>
+    <p>This policy may be updated when Jarvis features or legal requirements change. The date at the top identifies the latest version. Questions and privacy requests can be submitted through the <a href="https://discord.gg/avengers">support server</a>.</p>
+  </main>
+</body>
+</html>
